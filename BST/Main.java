@@ -8,8 +8,8 @@ public class Main {
         bst.insert(1);
         bst.insert(4);
         bst.insert(5);
-        //bst.insert(20);
-       // bst.insert(15);
+        bst.insert(20);
+       bst.insert(15);
         bst.printTree();
         System.out.println();
         bst.print();

@@ -13,8 +13,16 @@ public class Main{
         
         int i = queue.dequeue();
         System.out.println(i);
-        System.out.println(queue.getLength());
+        // int x = queue.dequeue();
+        // int y = queue.dequeue();
+        // int e = queue.dequeue();
 
+        // System.out.println(x);
+        // System.out.println(y);
+        // System.out.println(e);
+
+        System.out.println("length: " + queue.getLength());
+queue.enqueue(60);
         queue.print();
     }
 }
