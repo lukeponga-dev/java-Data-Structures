@@ -66,7 +66,7 @@ public int dequeue(){
     public void print() {
         Node current = head;
         while (current != null) {
-            System.out.print(current.value + " -->");
+            System.out.print(current.value + " -> ");
             current = current.next;
         }
         System.out.println();

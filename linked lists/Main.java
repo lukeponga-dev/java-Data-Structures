@@ -5,22 +5,22 @@ public class Main {
 
         IntLinkedList intLinkedList = new IntLinkedList();
 
-        intLinkedList.add(10);
-        intLinkedList.add(20);
-        intLinkedList.add(30);
-        intLinkedList.add(40);
-        intLinkedList.add(50);
+        intLinkedList.add(2);
+        intLinkedList.add(3);
+        intLinkedList.add(1);
+        intLinkedList.add(4);
+        intLinkedList.add(5);
         intLinkedList.print();
-        intLinkedList.remove(50);
+        intLinkedList.remove(2);
         intLinkedList.print();
-        intLinkedList.remove(10);
+        intLinkedList.remove(1);
         intLinkedList.print();
-        intLinkedList.insert(10);
-        intLinkedList.insert(50);
+        intLinkedList.insert(1);
+        intLinkedList.insert(2);
         intLinkedList.print();
 
         System.out.println("Is Empty? " + intLinkedList.isEmpty());
-        System.out.println("Has Value? " + intLinkedList.hasValue(10));
+        System.out.println("Has Value? " + intLinkedList.hasValue(5));
         System.out.println("List Length? " + intLinkedList.getLength());
 
     }

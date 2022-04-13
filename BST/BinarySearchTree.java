@@ -65,14 +65,14 @@ public class BinarySearchTree {
         }
         System.out.print("root: " + cRoot.value + " ");
         if (cRoot.left == null) {
-            System.out.print(" | left: null");
+            System.out.print(" -> left: null");
         } else {
-            System.out.print(" | left" + cRoot.left.value);
+            System.out.print(" -> left: " + cRoot.left.value);
         }
         if (cRoot.right == null) {
-            System.out.print(" | right: null");
+            System.out.print(" -> right: null");
         } else {
-            System.out.print(" | right" + cRoot.right.value);
+            System.out.print(" -> right: " + cRoot.right.value);
         }
 
         System.out.println();
