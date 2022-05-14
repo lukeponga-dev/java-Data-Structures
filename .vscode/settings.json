@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "linked lists",
         "Queues",
-        "BST"
+        "BST",
+        "Java-data-structures-main/Java-data-structures-main/binary-search-trees"
     ]
 }
