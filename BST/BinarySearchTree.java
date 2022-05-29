@@ -82,7 +82,7 @@ public class BinarySearchTree {
 
     public void printTree() {
         System.out.println("Tree:");
-        BSTPrinter.printNode(root);
+        // BSTPrinter.printNode(root);
     }
 
 }
