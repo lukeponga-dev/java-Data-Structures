@@ -24,6 +24,20 @@ public class Graph {
     }
 
     /**
+     * method remove vertex
+     * 
+     * {@param s, the node to be removed}
+     */
+    public void removeVertex(String s) {
+        Vertex vertex = getVertex(s);
+        for (Vertex v : vertices) {
+            v.removeNeighbour(vertex);
+
+        }
+        vertices.remove(vertex);
+    }
+
+    /**
      * Add Edges to graph
      * 
      * @param s1

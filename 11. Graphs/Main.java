@@ -16,12 +16,16 @@ public class Main {
         System.out.println("\nGraph:");
 
         graph.addEdges("B", "C");
-        graph.addEdges("B", "E");
+        graph.addEdges("B", "A");
+        graph.addEdges("A", "D");
 
         graph.print();
         System.out.println("\nGraph:");
 
         graph.removeEdge("B", "C");
+        graph.print();
+        System.out.println("\nGraph:");
+        graph.removeVertex("B");
         graph.print();
     }
 }
