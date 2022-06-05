@@ -19,5 +19,9 @@ public class Main {
         graph.addEdges("B", "E");
 
         graph.print();
+        System.out.println("\nGraph:");
+
+        graph.removeEdge("B", "C");
+        graph.print();
     }
 }

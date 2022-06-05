@@ -48,6 +48,26 @@ public class Graph {
         }
     }
 
+    public void removeEdge(String s1, String s2) {
+        Vertex v1 = getVertex(s1);
+        Vertex v2 = getVertex(s2);
+
+        // If s1 or s2 null do nothing
+        if (v1 == null || v2 == null) {
+            return;
+        }
+        // Add our edges
+        for (Vertex v : vertices) {
+            if (v == v1) {
+                v.removeNeighbour(v2);
+            }
+            if (v == v2) {
+                v.removeNeighbour(v1);
+            }
+        }
+
+    }
+
     // Helper Methods
 
     /**
